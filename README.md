@@ -33,5 +33,5 @@ Algorithm based on below steps:
 10. Apply Random Forest Algorithm
 11. Apply Weighted K Nearest Neighbour
 
-Accuracy of all models I have checked after buidling a classifiers.
+Accuracy of all models I have checked after buidling a respective classifiers.
 
