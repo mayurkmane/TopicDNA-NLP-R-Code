@@ -9,7 +9,6 @@ My twitter data has following variables:
 4. Tweets
 5. Hashtags
 6. Emojis
-7. Date
 
 I have cleaned ActualTopic.csv data and divided it into train and test data.
 
