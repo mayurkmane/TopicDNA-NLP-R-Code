@@ -20,7 +20,6 @@ pos.corpus.hashtags<-Corpus(VectorSource(pos.hashtags))
 
 inspect(pos.corpus.tweet) ##Similarly other corpuses can be inspected
 
-##Lets Do some pre processing
 ##Removed words from Comments which have higher correlation to Output Classification
 ExtraStopWords<-c(stopwords("english"),"Sports","Art","Entertainment","Tags", "the", "bbmas")
 
@@ -39,7 +38,7 @@ Pos.corpus.Preprocess=function(corpus)
 pos.corpus.tweet<-Pos.corpus.Preprocess(pos.corpus.tweet)
 pos.corpus.hashtags<-Pos.corpus.Preprocess(pos.corpus.hashtags)
 
-##Generate a Document Term Matrix, Train Dataset and Test Dataset
+##Generated a Document Term Matrix, Train Dataset and Test Dataset
 
 pos.DTM.tweet<-DocumentTermMatrix(pos.corpus.tweet)
 pos.DTM.hashtags<-DocumentTermMatrix(pos.corpus.hashtags)
