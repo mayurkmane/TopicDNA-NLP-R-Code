@@ -37,5 +37,5 @@ Accuracy of all models I have checked after buidling a respective classifiers in
 
 TopicNLP.r is a ready code which work successfully however I am working on TopicRandTest.r file to extend the work over large data.
 
-Result of TopicNLP.r is quite good but this model is learning over small data set and hence it is facing difficulty over random large data. To overcome this TopicRandTest.r code will be used which can help to build machine learning model with large dataset and then we can do classification of n number of tweets over different topics. Stil updating....................
+Result of TopicNLP.r is quite good but this model is learning over small data set and hence it is facing difficulty over random large data. To overcome this TopicRandTest.r code will be used which can help to build machine learning model with large dataset and then we can do classification of n number of tweets over different topics. Still updating....................
 
