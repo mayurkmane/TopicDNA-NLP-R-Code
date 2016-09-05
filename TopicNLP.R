@@ -43,7 +43,7 @@ pos.corpus.hashtags<-Pos.corpus.Preprocess(pos.corpus.hashtags)
 pos.DTM.tweet<-DocumentTermMatrix(pos.corpus.tweet)
 pos.DTM.hashtags<-DocumentTermMatrix(pos.corpus.hashtags)
 
-findFreqTerms(pos.DTM.tweet, 50) # words occurred more that 200 times
+findFreqTerms(pos.DTM.tweet, 50) # words occurred more that 50 times
 findAssocs(pos.DTM.tweet, "amp", 0.1) # other words have a high association with "amazing"
 
 ##Input the sparse for topic, tweet, hashags accordingly such that Accuracy can be enhanced 
